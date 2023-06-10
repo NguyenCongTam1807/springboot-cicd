@@ -14,8 +14,6 @@ steps:
   inputs:
     versionSpec: '16'
     jdkArchitectureOption: 'x64'
-    jdkSourceOption: 'PreInstalled'
-    displayName: 'Installing Java 16'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
